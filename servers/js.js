@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 const port = 5000
 
-app.get('/', (req, res) => {
+app.get('/why-am-i-so-slow', (req, res) => {
   for (let i = 0; i < 100000; i++) {
     // do nothing
   }
