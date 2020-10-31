@@ -1,0 +1,23 @@
+{
+  "name": "server-load-testing",
+  "version": "1.0.0",
+  "description": "testing speed of back-end servers and languages that are compatible with REST API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iAmNawa/server-load-testing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iAmNawa/server-load-testing/issues"
+  },
+  "homepage": "https://github.com/iAmNawa/server-load-testing#readme",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "express": "^4.17.1"
+  }
+}
