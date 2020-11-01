@@ -36,7 +36,7 @@ let loadTestIsDone = setInterval(() => {
     final.totalMilliseconds = Date.now() -  startTime
     clearInterval(loadTestIsDone)
     fs.appendFile(
-      './expressResults.txt',
+      './flaskResults.txt',
       JSON.stringify(final) + '\n' + '-----------------------' + '\n',
       function(err) {
         if (err) {
