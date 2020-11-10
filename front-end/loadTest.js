@@ -24,7 +24,7 @@ let startTime;
 
 function oneTestLoop() {
   startTime = Date.now()
-  for (let i = 0; i < 1000; i++) {
+  for (let i = 0; i < 10000; i++) {
     oneTest()
   }
 }
@@ -32,7 +32,7 @@ function oneTestLoop() {
 oneTestLoop()
 
 let loadTestIsDone = setInterval(() => {
-  if (final.count === 1000) {
+  if (final.count === 10000) {
     final.totalMilliseconds = Date.now() -  startTime
     clearInterval(loadTestIsDone)
     fs.appendFile(

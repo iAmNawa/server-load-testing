@@ -6,3 +6,5 @@
 -----------------------
 {"success":1000,"errors":0,"count":1000,"totalMilliseconds":1071}
 -----------------------
+{"success":9908,"errors":92,"count":10000,"totalMilliseconds":6652}
+-----------------------
