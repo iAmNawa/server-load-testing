@@ -1,0 +1,8 @@
+{"success":1000,"errors":0,"count":1000,"totalMilliseconds":762}
+-----------------------
+{"success":1000,"errors":0,"count":1000,"totalMilliseconds":743}
+-----------------------
+{"success":1000,"errors":0,"count":1000,"totalMilliseconds":749}
+-----------------------
+{"success":1000,"errors":0,"count":1000,"totalMilliseconds":1071}
+-----------------------
